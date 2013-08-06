@@ -1,7 +1,7 @@
 /*
 Usage Example
-@media (min-width:1000px){/*Class name*/{/*properties*/}}
-@media (max-width:999px){/*Class name*/{/*properties*/}}
+@media (min-width:1000px){.targetedClass{ background: awesome;}}
+@media (max-width:999px){.targetedClass{ background: just awesome;}}
 This just says that any time there is a screen size bigger than 1000px, certain styles will be applied, 
 and when it is below that ( < 999px), it will apply different properties.
 */
